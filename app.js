@@ -4,6 +4,7 @@ let currentDroppable = null;
 
 function enterDroppable(elem) {
   // elem.style.background = "pink";
+  alert("goal");
 }
 
 function leaveDroppable(elem) {

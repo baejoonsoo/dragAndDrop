@@ -18,6 +18,7 @@ ball.addEventListener("mousedown", (event) => {
 
   ball.style.position = "absolute";
   ball.style.zIndex = 1000;
+  document.body.append(ball);
 
   // 초기 이동을 고려한 좌표 (pageX, pageY)로 공을 이동
   function moveAt(pageX, pageY) {

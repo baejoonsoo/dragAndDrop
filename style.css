@@ -7,6 +7,18 @@
 
 #ball {
   cursor: pointer;
-  width: 40px;
-  height: 40px;
+}
+
+.list {
+  width: 30%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.clothes {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
 }

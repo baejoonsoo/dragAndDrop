@@ -20,5 +20,5 @@
 .clothes {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-evenly;
+  justify-content: center;
 }

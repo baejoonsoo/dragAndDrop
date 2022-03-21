@@ -16,12 +16,13 @@ Object.keys(ball).map(async (key) => {
 
   const { top, left, width, height } = await getLocation(oneBall);
 
+  oneBall.style.width = width;
+  oneBall.style.height = height;
+
   oneBall.style.position = "absolute";
   oneBall.style.zIndex = 1000;
   oneBall.style.top = top;
   oneBall.style.left = left;
-  oneBall.style.width = width;
-  oneBall.style.height = height;
 
   oneBall.addEventListener("mousedown", (event) => {
     //  공의 가장자리를 눌러도 공이 마우스포인터의 가장자리에 그대로 위치해 있게 한다
